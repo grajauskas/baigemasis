@@ -1,0 +1,125 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Garamond', cursive;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    padding: 1em 2em;
+}
+
+nav h1 a {
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+
+
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-decoration: none;
+
+}
+
+nav ul il a:hover {
+    text-decoration: none;
+
+}
+
+header {
+    color: whitesmoke;
+    background-image: url("https://wallpaperscraft.com/image/processor_cpu_upgrade_installation_chip_robot_5633_1366x768.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: flex;
+
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 0.2em;
+}
+
+header .mygtukas {
+    color: whitesmoke;
+    padding: 1em 2em;
+    margin: 1em;
+    font-size: 2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#apie {
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+}
+
+#komanda {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("image/nariai.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+
+}
+
+#komanda .narys img {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.narys {
+    position: relative;
+    width: 70%;
+    flex: 1 100%;
+    margin: 3em;
+
+}
+
+.narys:hover .informacija {
+    opacity: 1;
+}
+
+.narys .informacija {
+    transition: 0.5s all;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
